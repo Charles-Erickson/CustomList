@@ -14,7 +14,7 @@ namespace CustomListTest
         public void Test_Of_Add()
         {
             //Arrange
-            CustomList<int> myList = new CustomList<int>;
+            CustomList<int> myList = new CustomList<int>();
             int value = 5;
 
             //Act
