@@ -12,7 +12,7 @@ namespace CustomList
 
         public void Add(T item)
         {
-
+            items[0] = item;
         }
 
         public void Remove(T item)
@@ -23,5 +23,6 @@ namespace CustomList
         {
 
         }
+        public List<T> Zipper();
     }
 }
