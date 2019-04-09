@@ -8,34 +8,34 @@ namespace CustomList
 {
    public class CustomList<T>
     {
-        private T[]items =new T[];
+        private T[]items =new T[4];
 
         public T this[int i]
         {
             get{ return items[i]; }
             set { items[i] = value; }
         }
-
-        public int Count()
+        private int count;
+        public int Count
         {
-            int i;
-            int count=0;
-            if (items[0] = null)
-            {
-                return count;
-            }
-            for (i = 0;items i++)
-            {
-                count++;
-            }
-            return count;
+            get { return count; }
+
+            //int i;
+            //int count=0;
+            //if (items[0] = null)
+            //{
+            //    return count;
+            //}
+            //for (i = 0;items.Length ; i++)
+            //{
+            //    count++;
+            //}
+            //return count;
         }
 
         public void Add(T item)
         {
-            items.Count<>
             int i;
-            for()
             items[i] = item;
         }
 
@@ -52,4 +52,5 @@ namespace CustomList
 }
 
 
-//i=0;i<list.length;
+//i=0;i<list.length;i+2
+//i=1;i<list.length;i+2
